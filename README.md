@@ -2,11 +2,10 @@
 
 ## Cara Gunakan
 
-1. **Run the Program**: Run the program using the `go run` command followed by the filename (`biodata.go`) and the absen number of the friend you want to retrieve data for. For example:
-Replace `1` with the absen number of the friend you want to retrieve data for.
+1. **Jalankan Program**: Jalankan program menggunakan perintah [go run] diikuti dengan nama file (biodata.go) dan nomor absen yang ingin Anda ambil datanya. Sebagai contoh: Ganti 1 dengan nomor absen teman yang ingin Anda ambil datanya(2,3).
 
-2. **View Friend's Data**: The program will display the data of the friend with the specified absen number, including their Name, Address, Job, and Reason for choosing the Golang class.
+2. **Lihat Data Teman**: Program akan menampilkan data dengan nomor absen yang ditentukan, termasuk Nama, Alamat, Pekerjaan, dan Alasan memilih kelas Golang.
 
-## Data Structure
+## Struktur Data
 
-The data of friends is stored using a map with their respective absen numbers as keys and a struct containing their information (Name, Address, Job, Reason) as values.
+Data teman disimpan menggunakan map dengan nomor absen sebagai kunci dan data struct yang berisi informasi (Nama, Alamat, Pekerjaan, dan Alasan) sebagai nilai.
